@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.workoutmaker">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WorkoutMaker">
+        <activity
+            android:name=".QuickWorkoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PopUpActivity"
+            android:exported="true" />
+        <activity
+            android:name=".AddExercise"
+            android:exported="true" />
+        <activity
+            android:name=".EditBodyWeightActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GetMaxActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SaturdayExercisesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FridayExercisesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ThursdayExercisesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WednesdayExercisesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TuesdayExercisesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SundayExercisesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MondayExercisesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ExerciseStandInActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MaxWeightActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WorkoutView"
+            android:exported="true" />
+        <activity
+            android:name=".ExerciseView"
+            android:exported="true" />
+        <activity
+            android:name=".AddPopup"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
