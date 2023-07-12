@@ -19,6 +19,9 @@ public class Utilities {
             reps = (30*max)/weight -30; // Applies variation of the Epley formula which is  most accurate over 9 reps
         }
         else{reps = 9.0;} // Intensity within the 9 rep range default to 9 reps
+        if(reps < 0) {
+            reps = 0.0;
+        }
         return reps;
     }
     
@@ -76,6 +79,9 @@ public class Utilities {
         double max = 0;
         double intensity = findIntensity(reps); // Finds intensity
         max = (weight + dMod) / intensity - dMod; // Divides total weight by intensity then subtracts modified body weight to display bar weight to user
+        if(max < 0){
+            max = 0;
+        }
         return max;
     }
     

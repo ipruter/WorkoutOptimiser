@@ -58,9 +58,6 @@
             android:name=".ExerciseView"
             android:exported="true" />
         <activity
-            android:name=".AddPopup"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

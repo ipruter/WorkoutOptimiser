@@ -40,7 +40,7 @@ public class SaturdayExercisesActivity extends AppCompatActivity {
         Spinner spinner = (Spinner) findViewById(R.id.nameET_saturday);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item, exerciseNames);
         spinner.setAdapter(adapter); // Setting spinner adapter
-        spinner.setPrompt("testing");
+
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener(){
             @Override
             // Listens for a selection of a spinner item

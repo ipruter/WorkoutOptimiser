@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Angela Hunt/Desktop/Coding Projects/WorkoutOptimizer/WorkoutMaker/app/src/main/res/drawable/my_button_bg.xml" value="0.1" />
+        <entry key="..\:/Users/Angela Hunt/Desktop/Coding Projects/WorkoutOptimizer/WorkoutMaker/app/src/main/res/layout/activity_monday_exercises.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Angela Hunt/Desktop/Coding Projects/WorkoutOptimizer/WorkoutMaker/app/src/main/res/layout/activity_quick_workout.xml" value="0.5" />
+      </map>
+    </option>
+  </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
